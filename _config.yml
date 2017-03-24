@@ -1,4 +1,6 @@
 theme: jekyll-theme-minimal
 title: michael veale
+gems:
+  - jekyll-redirect-from
 redirect_to:
   - http://www.homepages.ucl.ac.uk/~ucqnmve/
