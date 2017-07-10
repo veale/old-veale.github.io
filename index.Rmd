@@ -1,13 +1,16 @@
 ---
 output:
   html_document:
-    theme: cosmo
     highlight: textmate
     mathjax: null
-    toc: true
+    theme: cosmo
+    toc: yes
     toc_depth: 2
     toc_float:
-      collapsed: false
+      collapsed: no
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
 ---
 
 ```{r, include=FALSE}
@@ -94,7 +97,10 @@ Editor curating technical engineering news for practitioner and educational audi
 # **produces**
 ## papers
 
-- Edwards, Lilian and Veale, Michael (2017). Slave to the algorithm? Why a ‘right to an explanation’ is probably not the remedy you are looking for. Draft, available on SSRN [[html](https://ssrn.com/abstract=2972855)]
+- Veale, Michael (2017). Logics and practices of transparency and opacity in real-world applications of public sector machine learning. Presented as a talk at the 2017 Workshop on Fairness, Accountability, and Transparency in Machine Learning (FAT/ML 2017), Halifax, Canada, August 14, 2017. [[arXiv](https://arxiv.org/abs/1706.09249)]
+- Binns, Reuben; Veale, Michael; Van Kleek, Max; Shadbolt, Nigel. (2017) Like trainer, like bot? Inheritance of bias in algorithmic content moderation. 9th International Conference on Social Informatics (SocInfo 2017), Oxford, UK, 13--15 September 2017 (forthcoming in Springer Lecture Notes in Computer Science) [[arXiv](https://arxiv.org/abs/1707.01477)]
+- Edwards, Lilian and Veale, Michael (2017). Slave to the algorithm? Why a ‘right to an explanation’ is probably not the remedy you are looking for. Draft, available on SSRN [[SSRN](https://ssrn.com/abstract=2972855)]
+- Veale, Michael (2016). Connecting diverse public sector values with the procurement of machine learning systems.  Data for Policy 2016 - Frontiers of Data Science for Government: Ideas, Practices and Projections (Data for Policy), Cambridge, United Kingdom, 15 - 16 September 2016 [[doi](https://doi.org/10.5281/zenodo.571786)]
 - Veale, Michael and Binns, Reuben [*under review*]
 - Veale Michael and Seixas, Rafael (2015). Moving to metrics: Opportunities and challenges of performance based sustainability standards. S.A.P.I.EN.S. 8(1). [[pdf](https://sapiens.revues.org/pdf/1713)] [[html](https://sapiens.revues.org/1713)] [[BibTeX](./x/2015vealeseixas.bib)] [[pdf mirror](./x/2015vealeseixas.pdf)]
 
